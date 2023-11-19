@@ -725,8 +725,8 @@ form .btn-enviar input:hover{                      /* mouse hover no botão envi
         font-size: 35px;
     }
 
-    section.formulario h3{
-        padding: 20px 20%;                              /* cor do span */
+    section.formulario h3{          
+        /* cor do span */
         color: #e0e0e0;
         font-size: 18px;
         font-weight: 100;
