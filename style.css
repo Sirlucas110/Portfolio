@@ -605,9 +605,10 @@ form .btn-enviar input:hover{                      /* mouse hover no botão envi
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         gap: 2rem;
         flex-direction: column;
+        align-items: center;
     }
 
     section.section_projetos .container_projetos .card_projeto{   /* configuração dos card's que comporta os projetos  */
