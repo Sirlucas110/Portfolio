@@ -32,7 +32,8 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    height: 35px;                   /* afastamento dos itens do cabeçalho */
+    height: 70px;     
+    background-color: #050505;              /* afastamento dos itens do cabeçalho */
 }
 
 header > .interface{                    /*chamo a classe interface que está dentro do header com o sinal de maior > */
