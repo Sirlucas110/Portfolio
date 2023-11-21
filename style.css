@@ -27,7 +27,12 @@ body{
 
 
 header{
-    padding: 20px 4%;                   /* afastamento dos itens do cabeçalho */
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;                   /* afastamento dos itens do cabeçalho */
 }
 
 header > .interface{                    /*chamo a classe interface que está dentro do header com o sinal de maior > */
