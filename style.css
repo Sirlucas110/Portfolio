@@ -32,11 +32,15 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;     
+    height: 50px;     
     background-color: #050505;              /* afastamento dos itens do cabeçalho */
 }
+header .logo-header{
+    margin-top: 10px;
+}
 
-header > .interface{                    /*chamo a classe interface que está dentro do header com o sinal de maior > */
+header > .interface{     
+    height: 100%;               /*chamo a classe interface que está dentro do header com o sinal de maior > */
     display: flex;
     align-items: center;                /* alinhamento dos itens no centro da page */
     justify-content: space-between;     /* espaço entre os elementos */   
@@ -62,13 +66,8 @@ header nav ul li{
 }
 
 header .btn-contato button{
-    padding: 10px 30px;                  /* espaçamentos */ 
-    font-size: 16px;                     /* tamanho da fonte */ 
-    font-weight: 500;                    /* aumenta o peso da fonte */ 
-    cursor: pointer;                     /* deixa o cursor estilo mão */ 
-    width: 8rem;                         /* comprimento do button */ 
-    height: 3rem;                        /* largura do button */ 
-    border-radius: .5rem;                /* raio da borda */ 
+    padding: 5px 10px;
+    border-radius: 5px;              /* raio da borda */ 
     background-color: transparent;       /* cor transparente no button */ 
     transition: 0.4s;                    /* efeito */ 
     border: .1rem solid #068bea;       /* cor da borda do button */ 
@@ -154,7 +153,6 @@ section.head-do-site .link-contato{
     align-items: center;
     background: rgb(28, 28, 28);
     border-radius: 15px;
-    position: relative;
     transition: 0.4s;
     font-size: 15px;
 }
@@ -282,7 +280,7 @@ section.section_projetos .container_projetos .card_projeto .card_descricao .card
 }
 
 section.section_projetos .container_projetos .card_projeto .card_descricao .card_nav .button{   /* configuração dos buttons github e site do card */
-    width: 10rem;
+    width: 8rem;
     height: 3rem;
     border-radius: .5rem;
     background-color: transparent;
